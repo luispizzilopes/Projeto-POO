@@ -41,7 +41,7 @@ public class Cachorro extends Animal implements IConsulta{
     //Sobrescrita
     @Override
     public void tagAnimal() {
-        System.out.println("=================TAG CACHORRO - " + getNome() + "=================");
+        System.out.println("================= TAG CACHORRO - " + getNome() + " =================");
         System.out.println("\nNome: " + getNome() +
                         "\nIdade: " + getIdade() +
                         "\nData de Cadastro: " + getDataCadastro() +
@@ -52,6 +52,7 @@ public class Cachorro extends Animal implements IConsulta{
                         "\nCPF: " + getDonoDoAnimal().getCpf() + 
                         "\nRua: " + getDonoDoAnimal().getEndereco().getRua() +
                         "\nNumero: " + getDonoDoAnimal().getEndereco().getNumero() + 
-                        "\nBairro: " + getDonoDoAnimal().getEndereco().getBairro()); 
+                        "\nBairro: " + getDonoDoAnimal().getEndereco().getBairro() + 
+                        "\n\nVALOR CONSULTAS: " + valorConsulta() + "\n");   
     }
 }

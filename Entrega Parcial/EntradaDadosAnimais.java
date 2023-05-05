@@ -66,7 +66,7 @@ public class EntradaDadosAnimais {
         }
         cavalo.setAltura(Double.parseDouble(Leitura.entDados("Informe a altura do cavalo: ")));
         cavalo.setPeso(Double.parseDouble(Leitura.entDados("Informe o peso do cavalo: ")));
-        cavalo.setTransporte(Boolean.parseBoolean(Leitura.entDados("Informe se o cavalo é utilizado para transporte (True/False): ")));
+        cavalo.setTransporte(Boolean.parseBoolean(Leitura.entDados("Informe se o cavalo e utilizado para transporte (True/False): ")));
         cavalo.setDataCadastro(Leitura.entDados("Informe a data de cadastro: "));
         cavalo.setEspecie("Equidae");
         cavalo.getDonoDoAnimal().setNome(Leitura.entDados("Informe o nome do dono do cavalo: "));
